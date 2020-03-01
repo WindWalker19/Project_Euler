@@ -2,11 +2,10 @@
 
 //What is the largest prime factor of the number 600851475143 ?
 
-
-//Using Sieve of Eratosthenes
+//Can be done Using Sieve of Eratosthenes but the complexity is O(n).
 
 int proj3(){
-	long int num = 10;
+	long int num = 600851475143;
 	int p = 0;
 	long int maxFact;
 	long int div =2;
