@@ -3,7 +3,7 @@
 #include "head.h"
 #include "pro1.h"
 #include "pro2.h"
-
+#include "pro3.h"
 
 int main(){
 
@@ -13,6 +13,7 @@ int main(){
 	int answer2 = proj2();
 	printf("The solution of the first problem : %d\n",answer2 );
 	
+	proj3();
 
 	return 0;
 }
